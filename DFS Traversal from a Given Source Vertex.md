@@ -62,18 +62,7 @@ class Graph:
 		for neighbour in self.graph[v]:
 		    if neighbour not in visited:
 		        self.DFSUtil(neighbour,visited)
-		
-		
-		
-		#.....
-		
-		
-		# Code here 
-		
-		
-		
-		#....
-		
+	
 		
 	# The function to do DFS traversal. It uses
 	# recursive DFSUtil()
